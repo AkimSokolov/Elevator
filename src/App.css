@@ -28,6 +28,40 @@
   color: #61dafb;
 }
 
+.floor{
+  width: 5vw;
+  height: 6vh;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 4vh;
+  background-color: chartreuse;
+  border: 1px solid #000;
+}
+
+.currentFloor{
+  width: 5vw;
+  height: 6vh;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 4vh;
+  background-color: rgb(229, 255, 0);
+  border: 1px solid #000;
+}
+
+.floor-in-queue{
+  width: 5vw;
+  height: 6vh;
+  margin-top: 1vh;
+  text-align: center;
+  font-size: 4vh;
+  background-color: rgb(0, 255, 106);
+  border: 1px solid #000;
+}
+
+.floor:hover{
+  background-color:darkgreen;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
